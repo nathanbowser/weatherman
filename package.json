@@ -1,11 +1,14 @@
 {
   "name": "weatherman",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node weather client",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/nathanbowser/weatherman.git"
+  },
+  "bin": {
+    "weatherman": "./bin/weatherman"
   },
   "keywords": [
     "weather"
