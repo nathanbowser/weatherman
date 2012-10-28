@@ -1,6 +1,6 @@
 {
   "name": "weatherman",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Node weather client",
   "main": "index.js",
   "repository": {
@@ -16,6 +16,8 @@
   "author": "Nathan Bowser <nbowser@gmail.com>",
   "license": "BSD",
   "dependencies": {
-    "event-stream": "~3.0.7"
+    "event-stream": "~3.0.7",
+    "picture-tube": "0.0.4",
+    "request": "~2.11.4"
   }
 }
